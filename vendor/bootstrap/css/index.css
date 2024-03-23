@@ -1,0 +1,47 @@
+.wrapper {
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+  border: 5px solid #111;
+  padding: 20px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.title small {
+  font-size: 14px;
+}
+
+.description p {
+  font-size: 16px;
+}
+
+.border-radius {
+  border-radius: 30px;
+}
+
+.text-right {
+  text-align: right;
+}
+
+@media (min-width: 768px) {
+  .wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .description,
+  .title {
+    width: 48%;
+  }
+}
